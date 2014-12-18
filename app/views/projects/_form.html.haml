@@ -4,4 +4,6 @@
     = f.input :name, required: true, autofocus: true
     = f.label :billable
     = f.input :billable, as: :boolean, label: false
+    = f.label :archived
+    = f.input :archived, as: :boolean, label: false
     = f.button :submit, data: { disable_with: t("loader.saving") }

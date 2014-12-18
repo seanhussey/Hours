@@ -40,6 +40,7 @@ en:
         create: Create Account
       project:
         create: Create Project
+        update: Update Project
       category:
         new: Create Category
   archives:
@@ -81,8 +82,6 @@ en:
   account_created_successfully: Signed up successfully
   project_created: Project successfully created
   project_updated: Project successfully updated
-  project_archived: Project successfully archived
-  project_unarchived: Project successfully un-archived
   category_created: Category successfully created
   category_updated: Category successfully updated
   no_hours_registered: "Nobody spent any time on %{project} yet"
