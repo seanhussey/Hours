@@ -7,6 +7,7 @@
 #  created_at :datetime
 #  updated_at :datetime
 #  slug       :string(255)
+#  budget     :integer
 #
 
 class Project < ActiveRecord::Base
